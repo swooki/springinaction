@@ -25,4 +25,5 @@
 			<aop:after pointcut-ref="embark" method="singAfterQuest" />
 		</aop:aspect>
 	</aop:config>
+
 </beans>
