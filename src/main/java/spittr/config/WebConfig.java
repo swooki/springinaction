@@ -1,4 +1,4 @@
-package com.springinaction.ch5.spittr.config;
+package spittr.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -21,9 +21,9 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 	resolver.setExposeContextBeansAsAttributes(true);
 	return resolver;
     }
-    
+
     @Override
-    public void configureDefaultServletHandling (DefaultServletHandlerConfigurer configurer) {
+    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
 	configurer.enable();
     }
 }

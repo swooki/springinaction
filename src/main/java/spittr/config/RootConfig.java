@@ -1,4 +1,4 @@
-package com.springinaction.ch5.spittr.config;
+package spittr.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;
